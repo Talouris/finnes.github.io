@@ -1,0 +1,554 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+button {
+  width: 219px;
+  height: 51px;
+  color: #fff;
+  border-radius: 20px;
+  background-color: #8B1CFB;
+  text-transform: uppercase;
+  border: none;
+  font-size: 16px;
+  box-shadow: 1px 1px 15px rgba(140, 28, 251, 0.368627451);
+}
+
+.wrapper .header .headerWrapper {
+  display: flex;
+  max-width: 77.34%;
+  max-height: 115px;
+  margin: 0 202px;
+  justify-content: space-between;
+}
+.wrapper .header .headerWrapper .navLogo {
+  margin: 43px 0;
+}
+.wrapper .header .headerWrapper .navLogo .LogoImg {
+  width: 155px;
+  height: 29px;
+}
+.wrapper .header .headerWrapper .nav .navList {
+  display: flex;
+  width: 445px;
+  justify-content: space-between;
+  margin: 49px 0 47px 0;
+}
+.wrapper .header .headerWrapper .nav .navList .navItemLink {
+  text-decoration: none;
+  color: #1B1B20;
+}
+.wrapper .header .headerWrapper .nav .navList .navItemLink .navItem {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.wrapper .header .headerWrapper .buttonWrapper .headerButtonLink {
+  text-decoration: none;
+}
+.wrapper .header .headerWrapper .buttonWrapper .headerButtonLink .headerButton {
+  margin: 32px 0;
+  cursor: pointer;
+}
+.wrapper .main .mainWithLinkWrapper {
+  width: 100%;
+  background-image: url("img/backgroundmain__with__link__bg.png");
+}
+.wrapper .main .mainWithLinkWrapper .mainWithLink {
+  display: flex;
+}
+.wrapper .main .mainWithLinkWrapper .mainWithLink .titleArea {
+  margin: 110px 0 0 220px;
+}
+.wrapper .main .mainWithLinkWrapper .mainWithLink .titleArea .mainTitle {
+  max-width: 540px;
+  margin-bottom: 36px;
+}
+.wrapper .main .mainWithLinkWrapper .mainWithLink .titleArea .mainSubTitle {
+  min-width: 750px;
+  margin-bottom: 60px;
+}
+.wrapper .main .mainWithLinkWrapper .mainWithLink .titleArea .buttonLinkPlaceholder {
+  display: flex;
+}
+.wrapper .main .mainWithLinkWrapper .mainWithLink .titleArea .buttonLinkPlaceholder .buttonItemLink {
+  margin-bottom: 269px;
+}
+.wrapper .main .mainWithLinkWrapper .mainWithLink .titleArea .buttonLinkPlaceholder .buttonItemLink:nth-child(1) {
+  padding-right: 32px;
+}
+.wrapper .main .mainWithLinkWrapper .mainWithLink .imgPlacaholder .mainCryptoImg {
+  width: 928px;
+  height: 694px;
+  margin-top: 46px;
+}
+.wrapper .main .subInfoMain .subInfoMainBg {
+  background-image: url("img/Card__bg__1.png");
+  max-height: 453px;
+}
+.wrapper .main .subInfoMain .subInfoMainBg .subInfoWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 64.79%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.wrapper .main .subInfoMain .subInfoMainBg .subInfoWrapper .subInfoContent {
+  max-width: 326px;
+}
+.wrapper .main .subInfoMain .subInfoMainBg .subInfoWrapper .subInfoContent .subInfoContentImg {
+  width: 48px;
+  height: 48px;
+  margin: 0 139px;
+}
+.wrapper .main .subInfoMain .subInfoMainBg .subInfoWrapper .subInfoContent .subInfoContentTitle {
+  text-align: center;
+  margin: 24px 0 24px 0;
+}
+.wrapper .main .subInfoMain .subInfoMainBg .subInfoWrapper .subInfoContent .subInfoContentP {
+  min-height: 99px;
+  text-align: center;
+}
+.wrapper .introducingSec .introducingSecBg {
+  background-image: url("img/backgroundbg__of__section__coiin.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper .introducingSec .introducingSecBg .introducingWrapper {
+  width: 38.75%;
+  margin: 0 auto;
+  align-items: center;
+}
+.wrapper .introducingSec .introducingSecBg .introducingWrapper .introducingWrapperBlockImg {
+  padding: 28px 0 0 0;
+}
+.wrapper .introducingSec .introducingSecBg .introducingWrapper .introducingWrapperBlockImg .introducingImg {
+  width: 744px;
+}
+.wrapper .introducingSec .introducingSecBg .introducingWrapper .introducingSupTitleBlock .itroducingSupTitle {
+  padding: 56px 0 0 0;
+  text-align: center;
+}
+.wrapper .introducingSec .introducingSecBg .introducingWrapper .introducingTitleBlock .introducingTitle {
+  margin: 20px 0 36px 0;
+  text-align: center;
+}
+.wrapper .introducingSec .introducingSecBg .introducingWrapper .introducingSubTitleBlock .introducingSubTitle {
+  padding-bottom: 101px;
+  text-align: center;
+}
+.wrapper .accessibleSec {
+  width: 100%;
+}
+.wrapper .accessibleSec .accessibleSecBg .accessibleWrapper {
+  display: flex;
+}
+.wrapper .accessibleSec .accessibleSecBg .accessibleWrapper .accessibleWrapperBlockImg .accessibleImg {
+  width: 750px;
+  height: 660px;
+}
+.wrapper .accessibleSec .accessibleSecBg .accessibleWrapper .accessibleTextBlock {
+  max-width: 900px;
+  margin: 168px 0 0 179px;
+  padding-bottom: 280px;
+  -o-border-image: url("img/sec4__bg.png");
+     border-image: url("img/sec4__bg.png");
+  background-size: contain;
+}
+.wrapper .accessibleSec .accessibleSecBg .accessibleWrapper .accessibleTextBlock .accessibleTitleBlock {
+  max-width: 669px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+}
+.wrapper .accessibleSec .accessibleSecBg .accessibleWrapper .accessibleTextBlock .accessibleTitleBlock .accessibleTitle {
+  text-align: center;
+}
+.wrapper .accessibleSec .accessibleSecBg .accessibleWrapper .accessibleTextBlock .accessibleSubTitleBlock .accessibleSubTitle {
+  text-align: center;
+}
+.wrapper .howYouEarnSec {
+  width: 100%;
+}
+.wrapper .howYouEarnSec .howYouEarnCardWrapper .howYouEarnCard {
+  width: 86.14%;
+  height: 410px;
+  border-radius: 20px;
+  border-radius: 20px;
+  background: linear-gradient(280deg, #FFF5DD 0%, rgba(170, 86, 254, 0.32) 37.22%, rgba(254, 86, 217, 0.28) 58.14%, rgba(86, 254, 254, 0.28) 100%);
+  box-shadow: -10px 10px 50px 0px rgba(0, 0, 0, 0.1), 10px 10px 60px 0px rgba(255, 255, 255, 0.4) inset;
+  margin: 0 auto 36px auto;
+}
+.wrapper .howYouEarnSec .howYouEarnCardWrapper .howYouEarnCard .howYouEarnTitle {
+  width: 447px;
+  padding: 60px 604px 48px 605px;
+}
+.wrapper .howYouEarnSec .howYouEarnCardWrapper .howYouEarnCard .stepsItems {
+  display: flex;
+  margin: 0 112px;
+}
+.wrapper .howYouEarnSec .howYouEarnCardWrapper .howYouEarnCard .stepsItems .stepsBlock {
+  width: 400px;
+  min-height: 110px;
+  margin-right: 115px;
+}
+.wrapper .howYouEarnSec .howYouEarnCardWrapper .howYouEarnCard .stepsItems .stepsBlock:last-child {
+  margin-right: 0;
+}
+.wrapper .howYouEarnSec .howYouEarnCardWrapper .howYouEarnCard .stepsItems .stepsBlock .stepsContent .stepItem .stepTitleBlock {
+  padding-bottom: 24px;
+}
+.wrapper .howYouEarnSec .howYouEarnCardWrapper .howYouEarnCard .stepsItems .stepsBlock .stepsContent .stepItem .stepTitleBlock .stepTitle {
+  color: #000;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 0 140px;
+}
+.wrapper .howYouEarnSec .howYouEarnCardWrapper .howYouEarnCard .stepsItems .stepsBlock .stepsContent .stepItem .stepListBlock .stepList {
+  list-style-type: circle;
+}
+.wrapper .presentFitMirSec .presentFitMirSecBg {
+  max-width: 1827px;
+  height: 1510px;
+  margin: 0 auto;
+}
+.wrapper .presentFitMirSec .presentFitMirSecBg .presentFitMirTextSec .presentFitMirTextPlaceholder .fitMirTitlePlacement .fitMirTitleHolder {
+  padding-bottom: 80px;
+}
+.wrapper .presentFitMirSec .presentFitMirSecBg .presentFitMirTextSec .presentFitMirTextPlaceholder .fitMirTitlePlacement .fitMirTitleHolder .fitMirMainTitle {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 148px;
+}
+.wrapper .presentFitMirSec .presentFitMirSecBg .presentFitMirModulesSec .presentFitMirModulesPlaceholder {
+  display: flex;
+  margin: 0 202px;
+  justify-content: space-between;
+}
+.wrapper .presentFitMirSec .presentFitMirSecBg .presentFitMirModulesSec .presentFitMirModulesPlaceholder .fitMirSHolder {
+  max-height: 198px;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+}
+.wrapper .presentFitMirSec .presentFitMirSecBg .presentFitMirModulesSec .presentFitMirModulesPlaceholder .fitMirSHolder .fitMirTitle {
+  width: 337px;
+}
+.wrapper .presentFitMirSec .presentFitMirSecBg .presentFitMirModulesSec .presentFitMirModulesPlaceholder .fitMirSHolder .enfEntry {
+  width: 288px;
+  margin: 24px auto;
+}
+.wrapper .presentFitMirSec .presentFitMirSecBg .presentFitMirModulesSec .presentFitMirModulesPlaceholder .fitMirSHolder .fitMirSubTitle {
+  max-width: 270px;
+  margin: 0 auto;
+}
+.wrapper .presentFitMirSec .presentFitMirSecBg .presentFitMirModulesSec .presentFitMirModulesPlaceholder .fitMirXHolder {
+  max-height: 198px;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+}
+.wrapper .presentFitMirSec .presentFitMirSecBg .presentFitMirModulesSec .presentFitMirModulesPlaceholder .fitMirXHolder .fitMirTitle {
+  width: 345px;
+}
+.wrapper .presentFitMirSec .presentFitMirSecBg .presentFitMirModulesSec .presentFitMirModulesPlaceholder .fitMirXHolder .enfEntry {
+  width: 288px;
+  margin: 24px 0 24px 0;
+  margin: 24px auto;
+}
+.wrapper .presentFitMirSec .presentFitMirSecBg .presentFitMirModulesSec .presentFitMirModulesPlaceholder .fitMirXHolder .fitMirSubTitle {
+  max-width: 270px;
+  margin: 0 auto;
+}
+.wrapper .presentFitMirSec .presentFitMirSecBg .fitMirImgModulesSec .fitMirImgModulesPlaceholder {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+.wrapper .presentFitMirSec .presentFitMirSecBg .fitMirImgModulesSec .fitMirImgModulesPlaceholder .moduleSPlaceholder .fitSImg {
+  margin: 0;
+}
+.wrapper .presentFitMirSec .presentFitMirSecBg .fitMirImgModulesSec .fitMirImgModulesPlaceholder .moduleSPlaceholder .imgS {
+  margin-top: 50px;
+}
+.wrapper .presentFitMirSec .presentFitMirSecBg .fitMirImgModulesSec .fitMirImgModulesPlaceholder .girlPresentPlaceholder .imgGirl {
+  margin-top: -120px;
+}
+.wrapper .presentFitMirSec .presentFitMirSecBg .fitMirImgModulesSec .fitMirImgModulesPlaceholder .moduleXPlaceholder .imgX {
+  margin-top: 50px;
+}
+.wrapper .earningCalculatorSec .earningCalculatorSecBg {
+  max-width: 1920px;
+  height: 1050px;
+  background-image: url("img/sec7__bg.png");
+}
+.wrapper .earningCalculatorSec .earningCalculatorSecBg .earningWrapper .earningTitleBlock {
+  text-align: center;
+}
+.wrapper .earningCalculatorSec .earningCalculatorSecBg .earningWrapper .earningTitleBlock .earningTitle {
+  padding: 180px 0 120px 0;
+}
+.wrapper .earningCalculatorSec .earningCalculatorSecBg .earningWrapper .earningCalcConinBlock {
+  display: flex;
+  margin: 0 115px 0 220px;
+}
+.wrapper .earningCalculatorSec .earningCalculatorSecBg .earningWrapper .earningCalcConinBlock .earningCalc {
+  width: 638px;
+  max-height: 472px;
+  border-radius: 20px;
+  background: linear-gradient(103deg, rgba(170, 86, 254, 0.32) 1.02%, rgba(255, 112, 223, 0.28) 27.6%, rgba(141, 237, 250, 0.28) 51.56%, rgba(255, 255, 255, 0) 100%);
+}
+.wrapper .earningCalculatorSec .earningCalculatorSecBg .earningWrapper .earningCalcConinBlock .earningCalc .earningCalcTextPlace {
+  display: flex;
+  padding: 60px;
+}
+.wrapper .earningCalculatorSec .earningCalculatorSecBg .earningWrapper .earningCalcConinBlock .earningCalc .earningCalcTextPlace .avatarBlock .avatartTitle {
+  margin-bottom: 17px;
+}
+.wrapper .earningCalculatorSec .earningCalculatorSecBg .earningWrapper .earningCalcConinBlock .earningCalc .earningCalcTextPlace .avatarBlock .avatarKey {
+  width: 294px;
+  height: 29px;
+  margin-bottom: 5px;
+}
+.wrapper .earningCalculatorSec .earningCalculatorSecBg .earningWrapper .earningCalcConinBlock .earningCalc .earningCalcTextPlace .hardwareBlock .hardwareTitle {
+  margin-bottom: 2px;
+}
+.wrapper .earningCalculatorSec .earningCalculatorSecBg .earningWrapper .earningCalcConinBlock .earningCalc .earningCalcTextPlace .hardwareBlock .hardwareProps {
+  width: 220px;
+  height: 29px;
+  margin-bottom: 5px;
+}
+.wrapper .earningCalculatorSec .earningCalculatorSecBg .earningWrapper .earningCalcConinBlock .earningCoin .earningCoinImg {
+  width: 679px;
+  height: 578px;
+  margin-left: 286px;
+  margin-top: -40px;
+}
+.wrapper .earningCalculatorSec .earningCalculatorSecBg .earningWrapper .earningCalcConinBlock .earningCoin .earningCoinImg .coinImg {
+  width: 679px;
+  height: 578px;
+}
+
+.mainTitle {
+  color: #252525;
+  font-size: 64px;
+  font-family: "Fredoka", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.mainSubTitle {
+  color: #626262;
+  font-size: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.recurentTitle {
+  color: #1B1B20;
+  font-size: 56px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.recurentSubTitle {
+  color: #2D2D2D;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.cardTitle_32 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+  font-family: "Inter";
+  font-style: normal;
+  line-height: 120%;
+}
+
+.cardP_24 {
+  color: #1B1B20;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.fs_20 {
+  color: #1B1B20;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.fs_16 {
+  color: #1B1B20;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.avatarTitleFonts {
+  color: #000;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.hardwareTitleFonts {
+  color: #000;
+  text-align: right;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.hardwarePropsFonts {
+  color: #626262;
+  text-align: right;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.avatarKeyFonts {
+  color: #000;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.fitMirTitle {
+  color: #1B1B20;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.enfEntry {
+  color: #2D2D2D;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.fitMirSubTitle {
+  color: #2D2D2D;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.violetMark {
+  color: rgb(214, 31, 218);
+}
+
+.footerSubTitle {
+  color: #FFF;
+  text-align: right;
+  font-family: "Inter";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.footerFormSubTitle {
+  color: #FFF;
+  text-align: right;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.footer {
+  color: #fff;
+}
+.footer .footerWrapper .footerWrapperBg {
+  background-image: url("../img/svg/footerBg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 639px;
+  margin: 200px 0 0 0;
+  display: flex;
+}
+.footer .footerWrapper .footerWrapperBg .footerImgGirl {
+  max-width: 563px;
+  margin: -208px 0 0 149px;
+}
+.footer .footerWrapper .footerWrapperBg .footerImgGirl .footerGirlImg {
+  width: 563px;
+  display: block;
+}
+.footer .footerWrapper .footerWrapperBg .footerInfoPlaceholder {
+  margin: 192px 0 0 121px;
+  text-align: right;
+}
+.footer .footerWrapper .footerWrapperBg .footerInfoPlaceholder .earningTitle {
+  color: #fff;
+}
+.footer .footerWrapper .footerWrapperBg .footerInfoPlaceholder .footerSubTitle {
+  padding-top: 54px;
+  max-width: 883px;
+}
+.footer .footerWrapper .footerWrapperBg .footerInfoPlaceholder .footerFormPlacceholder {
+  padding: 40px 0;
+}
+.footer .footerWrapper .footerWrapperBg .footerInfoPlaceholder .footerFormPlacceholder .footerInput {
+  width: 317px;
+  height: 51px;
+  border-radius: 30px;
+  border: 1px solid #FFF;
+  margin-right: 32px;
+  padding-left: 20px;
+  background-color: transparent;
+}
+.footer .footerWrapper .footerWrapperBg .footerInfoPlaceholder .footerFormPlacceholder .footerInput::-moz-placeholder {
+  color: #FFF;
+}
+.footer .footerWrapper .footerWrapperBg .footerInfoPlaceholder .footerFormPlacceholder .footerInput::placeholder {
+  color: #FFF;
+}
+.footer .footerWrapper .footerWrapperBg .footerInfoPlaceholder .footerFormPlacceholder .footerButton {
+  cursor: pointer;
+}
+.footer .footerWrapper .footerWrapperBg .footerInfoPlaceholder .footerFormSubTitle {
+  max-width: 526px;
+  margin-left: auto;
+}/*# sourceMappingURL=style.css.map */

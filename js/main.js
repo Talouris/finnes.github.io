@@ -33,57 +33,50 @@ const selfPalette = [
 //     circleDiagram.draw();
 
 // console.log(anychart.palettes.defaultPalette)
+function myPie(selector) { 
+  let ctx = document.querySelector('#myPie').getContext('2d');
+  let myPieChart = new Chart(ctx, {
+      type: 'pie',
+      data: {
+          labels: false,
+          datasets: [{
+              data: [15,25,16,17,19,11,20,5],
+              backgroundColor: ['#FFE60A','#9D9595','#73FF04','#EF06AE','#4122FF','#FF800B','#00DFFE','#930AFF'],
+          }]
+      },
+      options: {}
+  });
+}
+myPie('#mypie');
 
-let ctx = document.querySelector('#myPie').getContext('2d');
-let myPieChart = new Chart(ctx, {
-    type: 'pie',
-    data: {
-        labels: false,
-        datasets: [{
-            data: [15,25,16,17,19,11,20,5],
-            backgroundColor: ['#FFE60A','#9D9595','#73FF04','#EF06AE','#4122FF','#FF800B','#00DFFE','#930AFF'],
-        }]
-    },
-    options: {}
-});
-
-let buttonHolder = document.querySelector('#buttonHolder')
-let buttons = document.getElementsByClassName('buttonChanger')
-let active = document.getElementsByClassName('active')
-
-for (let i = 0; i < buttons.length; i++){
-    buttons[i].addEventListener("click", function() {
-        for (let i = 0; i < active.length; i++) {
-            active[i].classList.remove("active")
-        }
-        buttons[i].classList.add("active")
-    })
-
+function changer(selector) {
+  let buttonHolder = document.querySelector('#buttonHolder')
+  let buttons = document.getElementsByClassName('buttonChanger')
+  let active = document.getElementsByClassName('active')
+  for (let i = 0; i < buttons.length; i++){
+      buttons[i].addEventListener("click", function() {
+          for (let i = 0; i < active.length; i++) {
+              active[i].classList.remove("active")
+          }
+          buttons[i].classList.add("active")
+      })
+  }
 } 
+changer('.buttonHolder');
 
 function burgerMenu(selector) {
-    let menu = $(selector);
-    let button = menu.find('.burger-Btn', '.burgerLines');
-    let links = menu.find('.navItemLink');
-    let overlay = menu.find('.burger-menu_overlay');
-    
-    button.on('click', (e) => {
-      e.preventDefault();
-      toggleMenu();
-    });
-    
-    links.on('click', () => toggleMenu());
-    overlay.on('click', () => toggleMenu());
-    
-    function toggleMenu(){
-      menu.toggleClass('activeBurger_Btn');
-      
-      if (menu.hasClass('activeBurger_Btn')) {
-        $('body').css('overlow', 'hidden');
-      } else {
-        $('body').css('overlow', 'visible');
-      }
+  let links = document.querySelector('#burger-Btn');
+  let linksClass = document.getElementsByClassName('burger-Btn');
+  const activeStat = document.getElementsByClassName('activeBurger_Btn'); 
+
+  links.addEventListener("click", function() {
+    if (links.classList.contains('activeBurger_Btn')) {
+      links.classList.remove("activeBurger_Btn");
     }
-  }
+    else {
+      links.classList.add("activeBurger_Btn");
+    }
+  })
+}
   
-  burgerMenu('.burgerNav');
+burgerMenu('.burger-Btn');

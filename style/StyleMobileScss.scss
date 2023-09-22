@@ -375,6 +375,7 @@ button {
                     width: 60px;
                     height: 40px;
                     z-index:2;
+                    cursor: pointer;
                     overflow: hidden;
                     position: fixed;
                     top: 10px;
@@ -545,6 +546,9 @@ button {
                     flex-shrink: 0;
                     .mainCryptoImg {
                         margin-top: 46px;
+                        @media screen and (max-width:1492px) {
+                            max-width: 740px;
+                        }
                         @media screen and (max-width:1450px) {
                             max-width: 700px;
                         }
@@ -1050,6 +1054,7 @@ button {
                     }
                     .earningCalc {
                         border-radius: 20px;
+                        height: 100%;
                         background: linear-gradient(103deg, rgba(170, 86, 254, 0.32) 1.02%, rgba(255, 112, 223, 0.28) 27.60%, rgba(141, 237, 250, 0.28) 51.56%, rgba(255, 255, 255, 0.00) 100%);
                         @media screen and (max-width:1090px) {
                             margin: 20px 0 40px 0;
@@ -1084,6 +1089,12 @@ button {
                                     width: 220px;
                                     height: 29px;
                                     margin-bottom: 5px;
+                                    @media screen and (min-width:1091px) and (max-width:1225px) {
+                                        margin-bottom: 13px;
+                                    }
+                                    @media screen and (min-width:1091px) and (max-width:1165px) {
+                                        margin-bottom: 17px;
+                                    }
                                     @media screen and (max-width:515px) {
                                         margin-bottom: 13px;
                                     }
@@ -1110,10 +1121,16 @@ button {
                     .earningCoin {
                         .earningCoinImg {
                             width: 100%;
-                            margin-left: 286px;
+                            margin-left: 186px;
                             margin-top: -40px;
+                            @media screen and (min-width:1630px) and (max-width:1860px) {
+                                width: 86%;
+                            }
                             @media screen and (max-width:1630px) {
                                 margin-left: 82px;
+                            }
+                            @media screen and (min-width:1500px) and (max-width:1550px) {
+                                width: 90%;
                             }
                             @media screen and (max-width:1500px) {
                                 margin-left: 32px;

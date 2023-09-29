@@ -1,0 +1,54 @@
+.footer {
+    color: #fff;
+    .footerWrapper {
+        .footerWrapperBg {
+            background-image: url('../img/svg/footerBg.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 639px;
+            margin: 200px 0 0 0;
+            display: flex;
+            .footerImgGirl {
+                max-width: 563px;
+                margin: -208px 0 0 149px;
+                .footerGirlImg {
+                    width: 563px;
+                    display: block;
+                }
+            }
+            .footerInfoPlaceholder {
+                margin: 192px 0 0 121px;
+                text-align: right;
+                .earningTitle {
+                    color: #fff;
+                }
+                .footerSubTitle {
+                    padding-top: 54px;
+                    max-width: 883px;
+                }
+                .footerFormPlacceholder {
+                    padding: 40px 0;
+                    .footerInput {
+                        width: 317px;
+                        height: 51px;
+                        border-radius: 30px;
+                        border: 1px solid #FFF;
+                        margin-right: 32px;
+                        padding-left: 20px;
+                        background-color: transparent;
+                        &::placeholder {
+                            color: #FFF;
+                        }
+                    }
+                    .footerButton {
+                        cursor: pointer;
+                    }
+                }
+                .footerFormSubTitle {
+                    max-width: 526px;
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+}
